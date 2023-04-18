@@ -1,0 +1,19 @@
+{
+  "name": "svg2font",
+  "version": "1.0.0",
+  "description": "Generate icon to font and style & convert font style",
+  "author": "Ashutosh Bharti",
+  "main": "build-icon-style.js",
+  "scripts": {
+    "generateIconFont": "fontello-cli install --config ./config/config.json --css ./styles --font ./fonts",
+    "updateIconConfig": "fontello-cli open --config ./config/config.json",
+    "generateIconStyle": "node build-icon-style.js",
+    "start": "npm run generateIconFont && npm run generateIconStyle"
+  },
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "css": "^3.0.0",
+    "fontello-cli": "^0.6.2"
+  }
+}
