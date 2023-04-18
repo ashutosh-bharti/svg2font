@@ -37,6 +37,6 @@ Update icon in fontello and download config.json file. Then replace local config
 $ npm start
 ```
 
-This will create font files in `fonts/` directory and style files in `styles/` directory. It will convert final style file in `icon-dist/` directory.
+It will create font files in `fonts/` directory and style files in `styles/` directory. After that it will convert final style file in `icon-dist/` directory.
 
 For custom icon refer [fontello wiki](https://github.com/fontello/fontello/wiki/How-to-use-custom-images)
