@@ -29,11 +29,12 @@ fs.readFile('./styles/mr-icon.css', 'utf8', (err, data) => {
                 let newSelectors = [];
                 let isIcon = false;
                 let isClass = false;
-                rule.declarations.forEach(decl => {
+                for (const decl of rule.declarations) {
                     if (decl.type === 'declaration' && decl.property === 'content') {
                         isIcon = true;
+                        break;
                     }
-                });
+                }
                 for (const selector of rule.selectors) {
                     let newSelector;
                     if (selector.includes('[class')) {
