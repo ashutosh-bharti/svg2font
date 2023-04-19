@@ -30,6 +30,7 @@ $ npm run updateIconConfig
 ```
 
 Update icon in fontello and download config.json file. Then replace local config.json with new downloaded file.
+<br />**Note:** delete `.fontello-session` file after replacing config.json in local.
 
 ##  Generate font and style in one command
 
