@@ -62,7 +62,6 @@ fs.readFile('./styles/mr-icon.css', 'utf8', (err, data) => {
                             if (declaration.property === 'font-style' ||
                                 declaration.property === 'font-weight' ||
                                 declaration.property === 'speak' ||
-                                declaration.property === 'text-decoration' ||
                                 declaration.property === 'font-variant' ||
                                 declaration.property === 'text-transform' ||
                                 declaration.property === '-webkit-font-smoothing' ||

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'mr-icon';
-  src: url('../font/mr-icon.eot?40412911');
-  src: url('../font/mr-icon.eot?40412911#iefix') format('embedded-opentype'),
-       url('../font/mr-icon.woff2?40412911') format('woff2'),
-       url('../font/mr-icon.woff?40412911') format('woff'),
-       url('../font/mr-icon.ttf?40412911') format('truetype'),
-       url('../font/mr-icon.svg?40412911#mr-icon') format('svg');
+  src: url('../font/mr-icon.eot?83134566');
+  src: url('../font/mr-icon.eot?83134566#iefix') format('embedded-opentype'),
+       url('../font/mr-icon.woff2?83134566') format('woff2'),
+       url('../font/mr-icon.woff?83134566') format('woff'),
+       url('../font/mr-icon.ttf?83134566') format('truetype'),
+       url('../font/mr-icon.svg?83134566#mr-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'mr-icon';
-    src: url('../font/mr-icon.svg?40412911#mr-icon') format('svg');
+    src: url('../font/mr-icon.svg?83134566#mr-icon') format('svg');
   }
 }
 */
